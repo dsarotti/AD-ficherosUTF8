@@ -55,6 +55,9 @@ public class App {
         System.out.println("--------------------------------------");
     }
 
+    /**
+     * Inicia el proceso de lectura del fichero con UTF8
+     */
     public static void leerUtf8(){
         try{
             File f = new File(ruta);
@@ -66,6 +69,9 @@ public class App {
         }
     }
 
+    /**
+     * Inicia el proceso de lectura del fichero sin UTF8
+     */
     public static void leerSinUtf8(){
         try{
             File f = new File(ruta);
